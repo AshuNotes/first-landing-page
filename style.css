@@ -1,0 +1,77 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+}
+
+.container {
+  background: linear-gradient(
+    135deg,
+    rgba(4, 0, 255, 0.886),
+    rgba(24, 43, 255, 0.616),
+    rgba(60, 60, 255, 0.279)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content {
+  height: 350px;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 2rem;
+  text-align: center;
+  border-radius: 7px;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+p {
+  font-size: 1.1em;
+  margin-bottom: 40px;
+}
+
+input[type="email"] {
+  width: 85%;
+  padding: 8px;
+  font: 20px solid black;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  border: 1px solid black;
+  transition: 0.15s ease-in-out;
+}
+
+input[placeholder] {
+  font-size: 1em;
+  font-family: "Poppins", sans-serif;
+  outline-style: none;
+}
+
+button {
+  color: #fff;
+  background-color: hsl(241, 100%, 50%);
+  padding: 8px 20px;
+  font-size: 1.1em;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 8px;
+  transition: 0.15s ease-in;
+}
+
+button:hover {
+  background-color: hsl(241, 100%, 40%);
+}
+
+button:active {
+  color: hsl(241, 100%, 40%);
+  background-color: hsl(241, 100%, 80%);
+}
